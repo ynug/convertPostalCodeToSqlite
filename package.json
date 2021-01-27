@@ -1,0 +1,17 @@
+{
+  "name": "convertpostalcodetosqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.15.0",
+    "iconv-lite": "^0.6.2",
+    "moji": "^0.5.1",
+    "sqlite3": "^5.0.1"
+  }
+}

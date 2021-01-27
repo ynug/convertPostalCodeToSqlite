@@ -1,0 +1,5 @@
+node_modules
+KEN_ALL*
+.idea
+dt*
+.DS_Store
