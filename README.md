@@ -1,18 +1,17 @@
-# 郵便番号データのcsvからSQLiteのデータベースを作成
+# Create SQLite database from csv of zip code data
 
-## 動作環境
+## System Requirements
 
 node 14.15.4
 
-## 利用データ
+## Use Data
 
-日本郵便株式会社提供の郵便番号データ  
+Postal code data provided by Japan Post Co., Ltd.
 https://www.post.japanpost.jp/zipcode/dl/kogaki-zip.html
 
-全国一括
+## Execution Method
 
-## 実行方法
-
-1. ダウンロードした郵便番号データを解凍して、同階層に `KEN_ALL.CSV` ファイル名で配置
-2. `node index.js`
-3. 処理が終わると同階層に `dt.sqlite` ファイルが生成される
+1. Unzip the downloaded zip code data and place it in the same layer with the `KEN_ALL.CSV` file name.
+2. `npm i`
+3. `node index.js`
+4. When the process is finished, a `dt.sqlite` file will be generated in the same hierarchy.
