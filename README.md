@@ -2,11 +2,11 @@
 
 ## System Requirements
 
-node 14.15.4
+node 16.13.1
 
 ## Use Data
 
-Postal code data provided by Japan Post Co., Ltd.
+Postal code data provided by Japan Post Co., Ltd.  
 https://www.post.japanpost.jp/zipcode/dl/kogaki-zip.html
 
 ## Execution Method

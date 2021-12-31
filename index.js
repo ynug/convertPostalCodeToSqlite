@@ -2,7 +2,7 @@
 
 const fs = require('fs').promises;
 const iconv = require('iconv-lite');
-const csvSync = require('csv-parse/lib/sync');
+const {parse} = require('csv-parse/sync');
 const sqlite = require('sqlite3').verbose();
 const moji = require('moji');
 
@@ -28,7 +28,7 @@ const convertCharacterCodeSJisToUtf8 = async (sjisFileName, utf8FileName) => {
  */
 const getPostalCodeCsvParseData = async (utf8FileName) => {
     const data = await fs.readFile(utf8FileName);
-    return csvSync(data);
+    return parse(data);
 }
 
 /**
